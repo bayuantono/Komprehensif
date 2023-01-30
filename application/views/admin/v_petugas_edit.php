@@ -40,6 +40,7 @@
 								<label class="font-weight-bold" for="no_telp">Nomor Telp</label>
 								<input type="tel" pattern="^\d{12}$" class="form-control" name="no_telp" placeholder="Masukkan Nomor Telp" 
 									required="required" value="<?php echo $p->no_telp; ?>">
+								<small class="form-text text-muted">Masukkan 12 digit nomor telp</small>
 							</div>
 							<input type="submit" class="btn btn-primary" value="Simpan">
 						</form>
