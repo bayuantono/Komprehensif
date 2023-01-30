@@ -38,7 +38,7 @@
 							</div>
 							<div class="form-group">
 								<label class="font-weight-bold" for="no_telp">Nomor Telp</label>
-								<input type="text" pattern="[0-9]" class="form-control" name="no_telp" placeholder="Masukkan Nomor Telp" 
+								<input type="tel" pattern="^\d{12}$" class="form-control" name="no_telp" placeholder="Masukkan Nomor Telp" 
 									required="required" value="<?php echo $p->no_telp; ?>">
 							</div>
 							<input type="submit" class="btn btn-primary" value="Simpan">
